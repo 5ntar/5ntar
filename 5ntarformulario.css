@@ -1,0 +1,76 @@
+.formulario {
+    /* Sólo para centrar el formulario a la página */
+    margin: 0 auto;
+    width: 400px;
+    height: 500px;
+    float: center;
+    /* Para ver el borde del formulario */
+    padding: 1em;
+    border: 5px double #CCC;
+    border-radius: 1em;
+    background: #F8A8F7;
+}
+.formulario div + div {
+    margin-top: 1em;
+}
+label {
+    /* Para asegurarse que todos los labels tienen el mismo tamaño y están alineados correctamente */
+    display: inline-block;
+    width: 270px;
+    text-align: right;
+}
+input, textarea {
+    /* Para asegurarse de que todos los campos de texto tienen las mismas propiedades de fuente
+       Por defecto, las areas de texto tienen una fuente con monospace */
+    font: 1em sans-serif;
+
+    /* Para darle el mismo tamaño a todos los campos de texto */
+    width: 100px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: right;
+
+    /* Para armonizar el look&feel del borde en los campos de texto */
+    border: 1px solid #999;
+}
+input:focus, textarea:focus {
+    /* Para dar un pequeño destaque en elementos activos*/
+    border-color: grey;
+}
+textarea {
+    /* Para alinear campos de texto multilínea con sus labels */
+    vertical-align: right;
+
+    /* Para dar suficiente espacio para escribir texto */
+    height: 5em;
+
+    /* Para permitir a los usuarios cambiar el tamaño de cualquier textarea verticalmente
+        No funciona en todos los navegadores */
+    resize: vertical;
+}
+.boton {
+    /* Para posicionar los botones a la misma posición que los campos de texto */
+    padding-left: 100px; /* mismo tamaño a todos los elementos label */
+
+    /* Este margen extra representa aproximadamente el mismo espacio que el espacio
+       entre los labels y sus campos de texto */
+    margin-left: .5em;
+    width: 500px;
+    margin-bottom: 1px;
+    align-items: center;
+
+}
+img{
+    max-width: 100%;
+    vertical-align: left;
+    display: inline-block;
+}
+#img_5ntar{
+    width: 35%;
+    margin-right: 1px;
+    margin-left: 1px;
+    float: left;
+}
+#img_5ntar img{
+    width: 100px; 
+}
