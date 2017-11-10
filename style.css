@@ -3,21 +3,22 @@
 body {
 	margin: 0;
 	padding: 0;
-	background: #FFFFFF url(images/img01.jpg) repeat-x left top;
+	background: #E1BEE7 url(images/img01.jpg) repeat-x left top;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
-	color: #7F7F81;
+	color: #212121;
 }
 
 h1, h2, h3 {
 	margin: 0;
 	padding: 0;
 	font-weight: normal;
-	color: #FFFFFF;
+	color: #BD0AC9;
 }
 
 h1 {
 	font-size: 2em;
+	color: #9C27B0;
 }
 
 h2 {
@@ -38,7 +39,7 @@ ul, ol {
 
 a {
 	text-decoration: none;
-	color: #3ABADF;
+	color: #7B1FA2;
 }
 
 a:hover {
@@ -72,6 +73,7 @@ img.aligncenter {
 	width: 1000px;
 	height: 200px;
 	margin: 0 auto;
+	background-color: #E1BEE7;
 }
 
 /* Logo */
@@ -99,9 +101,10 @@ img.aligncenter {
 	/*padding-left: 30px;*/
 	letter-spacing: -1px;
 	text-transform: lowercase;
-	text-shadow: #728927 -1px 1px 2px;
+	text-shadow: #E1BEE7 -1px 1px 2px;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 64px;
+	color: #9C27B0;
 }
 
 /*#logo p {
@@ -158,7 +161,7 @@ img.aligncenter {
 
 #menu {
 	width: 1000px;
-	height: 61px;
+	height: 100;
 	margin: 0 auto;
 	padding: 0;
 	background: url(images/img02.jpg) repeat-x left bottom;
@@ -175,19 +178,21 @@ img.aligncenter {
 	float: left;
 }
 
-#menu a {
+#menu a{
 	display: block;
 	height: 41px;
 	margin-right: 1px;
 	padding: 20px 20px 0px 20px;
 	text-decoration: none;
 	text-transform: uppercase;
-	text-shadow: #7E0044 -1px 1px 2px;
+	text-shadow: #BDBDBD -1px 1px 2px;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	font-weight: normal;
 	color: #FFFFFF;
 	border: none;
+	background: #9C27B0;
+
 }
 
 #menu .current_page_item a {
@@ -222,14 +227,17 @@ img.aligncenter {
 #page-bgbtm {
 	margin: 0px;
 	padding: 40px 30px 0px 30px;
+	background-color: #E1BEE7;
 }
 
 /* Content */
 
 #content {
 	float: left;
-	width: 520px;
+	width: 100%;
 	padding: 0px 20px;
+	background: #E1BEE7;
+
 }
 
 .post {
@@ -240,7 +248,7 @@ img.aligncenter {
 
 .post .title {
 	letter-spacing: -1px;
-	color: #1757AB;
+	color: #BD0AC9;
 }
 
 .post .title a {
@@ -248,16 +256,6 @@ img.aligncenter {
 	border: none;
 }
 
-.post .meta {
-	padding-bottom: 5px;
-	text-align: left;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	font-style: italic;
-}
-
-.post .meta a {
-}
 
 .post .entry {
 	text-align: justify;
@@ -282,6 +280,7 @@ img.aligncenter {
 	float: right;
 	width: 330px;
 	padding: 0px 0px 0px 0px;
+	background: #E1BEE7;
 }
 
 #sidebar ul {
@@ -319,7 +318,7 @@ img.aligncenter {
 	height: 38px;
 	padding: 12px 0 0 15px;
 	letter-spacing: -1px;
-	color: #95C500;
+	color: #BD0AC9;
 }
 
 #sidebar p {
@@ -381,4 +380,15 @@ img.aligncenter {
 
 #footer a {
 	color: #ffffff;
+}
+#boton_denunciar{
+	background-color:#FF5252;
+	float: right;
+	height: 100px;
+	width: 500px;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+
+
 }
