@@ -3,14 +3,13 @@
     <head>
         <meta charset="UTF-8">
         <title>Formularios</title>
-        <link rel="stylesheet" type="text/css" href="bootstrap.css">
         <link rel="stylesheet" type="text/css" href="5ntarformulario.css">
         <script type="text/javascript" src="5ntar.js"></script>
     </head>
     <body>
 
         <div class="formulario">
-            <div id="img_5ntar">
+           <div id="img_5ntar">
                 <img src="5ntar.jpg">
             </div>
             <h1>Compartí tu experiencia</h1>
@@ -19,9 +18,13 @@
                 <input type="text" id="txt_nombre" />
             </div>
             <div>
-                <label for="lbl_nombre">Apellido:</label>
-                <input type="text" id="txt_apellido" />
-            </div>  
+                <label for="lbl_lugar">Lugar:</label>
+                <input type="text" id="txt_lugar" />
+            </div>
+            <div>
+                <label for="lbl_hora">Hora:</label>
+                <input type="number" id="txt_hora" />
+            </div>    
             <div>
                 <label for="lbl_edad">Edad:</label>
                 <input type="text" id="txt_edad" />
@@ -38,22 +41,23 @@
             <div class="boton">
                 <input type="button" onclick="Saludar()" 
                 value="Saludar">
-            </div>
-            <div class="boton">
-                <input type="button" onclick="Saludar_a_confirmar(
-                document.getElementById('txt_nombre').value,
-                document.getElementById('txt_apellido').value)" 
-                value="Confirmar denuncia">
-            </div>            
+            </div>           
             <div class="boton">
                 <input type="button" onclick="RevisarInformacion(
                 document.getElementById('txt_nombre').value,
-                document.getElementById('txt_apellido').value,
+                document.getElementById('txt_lugar').value,
+                document.getElementById('txt_hora').value,
                 document.getElementById('txt_edad').value,
                 document.getElementById('txt_tipo').value,
                 document.getElementById('txt_descripcion').value)" 
-                value="RevisarInformacion">
+                value= "RevisarInformacion" >
             </div>
+            <div class="boton">
+                <input type="button" onclick="denunciar(
+                document.getElementById('txt_nombre').value,
+                document.getElementById('txt_apellido').value)" 
+                value="denunciar">
+            </div> 
         </div>
     </body>
 </html>
