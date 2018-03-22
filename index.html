@@ -26,15 +26,17 @@
 			<div id="menu">
 				<ul>
 					<li class="current_page_item">
-						<a href="#AcosoCallejero">Acoso Callejero</a>					
-					<li>
-						<a href="#Mapa">Mapa basado en App</a>
+						<a href="#AcosoCallejero">Acoso Callejero</a>
 					</li>
 					<li>
-						<a href="#ComoActuar">Como actuar</a>
-					</li>
+						<a href="#ComoActuar">COMO ACTUAR </a>
+					</li>					
 					<li>
-						<a href="#Estadisticas">Estadísticas (hasta 2016)</a>
+						<a id="mapa_basado_en _app" href="#Mapa">Mapa denuncias </a>
+					</li>
+					
+					<li>
+						<a href="#Estadisticas">Estadísticas </a>
 					</li>
 					<li>
 						<a href="#Leyes">Leyes sobre acoso</a>
@@ -54,7 +56,7 @@
 										<h2>Centros de ayuda</h2>
 								   		 <ul>
 								      		<li>
-								           		<a href="http://www.cnm.gob.ar/guianacreccaba.php">Centro de ayuda del CNM</a>
+								           		<a href="https://www.argentina.gob.ar/mapamujeres">Centro de ayuda del INAM</a>
 							         		</li><!--comentario-->
 							          		<li>
 							            		Piedras 1281, 1º piso.
@@ -74,11 +76,11 @@
 								    	</ul>
 									</li>
 									<li>
-										<h2>Consejo Nacional de la Mujer</h2>
+										<h2>Instituto Nacional de la Mujer</h2>
 										<br/>
 							       		 <ul>
 							        		<li>
-								            	<a href="http://www.cnm.gob.ar/">Consejo Nacional de la Mujer</a>							          	
+								            	<a href="https://www.argentina.gob.ar/mapamujeres">Instituto Nacional de la Mujer</a>							          	
 								        	</li><!--comentario-->
 								   		</ul>
 									</li>
@@ -89,7 +91,7 @@
 								
 								<div class="entry">							
 									<p>
-										El acoso callejero se produce cuando la víctima no tiene vínculo con el acosador y sucede en espacios públicos, medios de transporte y lugares privados con acceso público. Se manifesta a través de:
+										El acoso callejero se produce cuando la víctima no tiene vínculo con el acosador y sucede en espacios públicos, medios de transporte y lugares privados con acceso público. Si alguna vez te paso algo de esto, sufriste acoso callejero:
 									</p>
 									<ul>
 			          					<li>Silbidos.</li>
@@ -105,24 +107,11 @@
 							          	<li>Abuso.</li>
 							        </ul>
 							        <p>
-							            Este tipo de acciones produce en las víctimas sensaciones muy negativas, como miedo, estado de alerta, bronca, asco, baja autoestima y estrés. Además, en ciertos casos genera en ellas un cambio de hábitos, como la evitación de lugares, la alteración de la rutina y la modificación de la vestimenta.
+							            Probablemente hayas sentido cosas muy negativas, como miedo, estado de alerta, bronca, asco, baja autoestima y estrés. Además, en ciertos casos genera en ellas un cambio de hábitos, como la evitación de lugares, la alteración de la rutina y la modificación de la vestimenta.
 							        </p>
 								</div>
 							</div>
-							<div class="post">
-								<h2 class="title" id="Mapa">
-									Este mapa fue creado en base a las denuncias ya cargadas
-								</h2>
-								<div class="entry">
-								    <div  id= "CARTO.JS" cartodb.createVis('map', 'https://carocet.carto.com/builder/469e92ce-e4c2-4052-b4a9-99bbbd33ae52/embed').done(function(vis, layers) {
-								    		layers[1].setInteraction(true);
-    										layers[1].on('featureOver', function(e, latlng, pos, data, layerNumber) {
-     								 			console.log(e, latlng, pos, data, layerNumber);
-   										});
-   									 	var map = vis.getNativeMap();>
-   									</div>
-								</div>					
-							</div>
+							
 							<div class="post">
 								<h2 class="title" id="ComoActuar">
 									¿Cómo actuar ante una situación de acoso callejero?
@@ -137,6 +126,19 @@
 								</div>					
 							</div>
 							<div class="post">
+								<h2 class="title" id="Mapa">
+									Este mapa fue creado en base a las denuncias ya cargadas
+								</h2>
+								<div class="entry">
+									  
+									<div  id= "CARTO.JS" cartodb.createVis ('map', 'https://lulitaamartin.carto.com/builder/			a88e6032-e90d-497d-9830-8d57322a3ec9');
+									    cartodb.createVis('map',  src="<iframe width="100%" height="520" frameborder="0" src="https://lulitaamartin.carto.com/builder/a88e6032-e90d-497d-9830-8d57322a3ec9/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+	  									
+										 
+									</div>
+								</div>					
+							</div>
+							<div class="post">
 								<h2 class="title" id="Estadisticas">
 									Últimas Estadísticas (hasta noviembre desde 2016): 
 								</h2>
@@ -144,6 +146,9 @@
 								
 								<div class="entry">
 									<a href="http://cdn2.buenosaires.gob.ar/dgiga/modernizacion/acosocallejero/">Dirección General de la Mujer </a>
+								</div>
+								<div class="entry">
+									<a href="https://www.argentina.gob.ar/sites/default/files/informesobrenilinea144final02-09.pdf">Informe Niños, Niñas y Adolescentes </a>
 								</div>
 							</div>
 							<div style="clear: both;">&nbsp;</div>
