@@ -192,6 +192,8 @@ img.aligncenter {
 	color: #FFFFFF;
 	border: none;
 	background: #9C27B0;
+	margin-bottom: 30px;
+	 margin-left: 10px;
 
 }
 
@@ -321,6 +323,7 @@ img.aligncenter {
 	color: #BD0AC9;
 	letter-spacing: 1px;
 	line-height: 35px;
+	padding-left: 30px;
 }
 
 #sidebar p {
