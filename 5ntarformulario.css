@@ -16,8 +16,12 @@
 label {
     /* Para asegurarse que todos los labels tienen el mismo tamaño y están alineados correctamente */
     display: inline-block;
-    width: 270px;
+    width: 170px;
     text-align: right;
+    font-size: 18px;
+    font-style: verdana;
+    font-family: verdana;
+
 }
 input, textarea {
     /* Para asegurarse de que todos los campos de texto tienen las mismas propiedades de fuente
@@ -28,10 +32,11 @@ input, textarea {
     width: 100px;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    float: right;
+    
 
     /* Para armonizar el look&feel del borde en los campos de texto */
     border: 1px solid #999;
+    margin-left:70px;
 }
 input:focus, textarea:focus {
     /* Para dar un pequeño destaque en elementos activos*/
