@@ -83,3 +83,14 @@ img{
 #img_5ntar img{
     width: 100px; 
 }
+select {
+    width: 200px;
+    margin-left: 70px;
+}
+input[type="button"] {
+    background-color: #FF5252;
+    height: 70px;
+    font-size: 30px;
+    font-family: verdana;
+    width: 200px;
+}
