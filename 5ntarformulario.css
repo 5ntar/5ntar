@@ -1,14 +1,14 @@
 .formulario {
     /* Sólo para centrar el formulario a la página */
     margin: 0 auto;
-    width: 400px;
+    width: 600px;
     height: 500px;
     float: center;
     /* Para ver el borde del formulario */
     padding: 1em;
     border: 5px double #CCC;
     border-radius: 1em;
-    background: #F8A8F7;
+    background: #E1BEE7;
 }
 .formulario div + div {
     margin-top: 1em;
@@ -60,13 +60,17 @@ textarea {
     align-items: center;
 
 }
+h1{
+ font-size: 38px;
+ padding-left: 100px;   
+}
 img{
     max-width: 100%;
     vertical-align: left;
     display: inline-block;
 }
 #img_5ntar{
-    width: 35%;
+    width: 170px;
     margin-right: 1px;
     margin-left: 1px;
     float: left;
