@@ -94,3 +94,6 @@ input[type="button"] {
     font-family: verdana;
     width: 200px;
 }
+textarea#txt_descripcion {
+    width: 300px;
+}
