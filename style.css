@@ -292,8 +292,9 @@ img.aligncenter {
 }
 
 #sidebar li {
-	margin: 0;
-	padding: 0;
+	margin: inherit;
+    	padding: 0;
+    	margin-bottom: 30px;
 }
 
 #sidebar li ul {
@@ -397,4 +398,9 @@ img.aligncenter {
 }
 #mapa_basado_en_app{
 	font-weight: bold;
+}
+li.inicio {
+    width: 33%;
+    height: ;
+    display: table-cell;
 }
