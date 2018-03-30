@@ -279,8 +279,8 @@ img.aligncenter {
 /* Sidebar */
 
 #sidebar {
-	float: right;
-	width: 330px;
+	
+	width: 100%;
 	padding: 0px 0px 0px 0px;
 	background: #E1BEE7;
 }
