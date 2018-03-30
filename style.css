@@ -296,6 +296,11 @@ img.aligncenter {
     	padding: 0;
     	margin-bottom: 30px;
 }
+p.descripcion144 {
+    font-size: 15px;
+    margin-top: 40px;
+    font-family: verdana;
+}
 
 #sidebar li ul {
 	margin: 0px 15px;
@@ -325,6 +330,7 @@ img.aligncenter {
 	letter-spacing: 1px;
 	line-height: 35px;
 	padding-left: 30px;
+	margin-bottom: 40px;
 }
 
 #sidebar p {
