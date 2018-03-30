@@ -81,19 +81,21 @@ img{
     width: 100px; 
 }
 select {
-    width: 250px;
+    width: 293px;
     
 }
 input[type="button"] {
     background-color: #FF5252;
-    height: 70px;
+    height: 50px;
     font-size: 30px;
     font-family: verdana;
     width: 200px;
     float: unset;
-    margin-top: 35px;
-    margin-left: 100px;
+    margin-top: 10px;
+    margin-left: 130px;
 }
 textarea#txt_descripcion {
     width: 400px;
+    height: 120px;
+    margin-top: 15px;
 }
