@@ -12,12 +12,13 @@
 }
 .formulario div + div {
     margin-top: 1em;
+    margin-left: 170px;
 }
 label {
     /* Para asegurarse que todos los labels tienen el mismo tamaño y están alineados correctamente */
-    display: inline-block;
+    display: initial;
     width: 170px;
-    text-align: right;
+    text-align: left;
     font-size: 18px;
     font-style: verdana;
     font-family: verdana;
@@ -27,16 +28,12 @@ input, textarea {
     /* Para asegurarse de que todos los campos de texto tienen las mismas propiedades de fuente
        Por defecto, las areas de texto tienen una fuente con monospace */
     font: 1em sans-serif;
-
-    /* Para darle el mismo tamaño a todos los campos de texto */
-    width: 100px;
+    width: 330px;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    
-
-    /* Para armonizar el look&feel del borde en los campos de texto */
     border: 1px solid #999;
-    margin-left:70px;
+    clear: right;
+    float: right;
 }
 input:focus, textarea:focus {
     /* Para dar un pequeño destaque en elementos activos*/
@@ -84,8 +81,8 @@ img{
     width: 100px; 
 }
 select {
-    width: 200px;
-    margin-left: 70px;
+    width: 250px;
+    
 }
 input[type="button"] {
     background-color: #FF5252;
@@ -93,7 +90,10 @@ input[type="button"] {
     font-size: 30px;
     font-family: verdana;
     width: 200px;
+    float: unset;
+    margin-top: 35px;
+    margin-left: 100px;
 }
 textarea#txt_descripcion {
-    width: 300px;
+    width: 400px;
 }
