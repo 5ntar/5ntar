@@ -413,3 +413,8 @@ li.inicio {
     height: ;
     display: table-cell;
 }
+a.linkapp {
+    font-size: 25px;
+    margin-left: 40px;
+    font-family: verdana;
+}
