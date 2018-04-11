@@ -106,8 +106,9 @@ img.aligncenter {
 	text-transform: lowercase;
 	text-shadow: #E1BEE7 -1px 1px 2px;
 	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 64px;
+	font-size: 70px;
 	color: #9C27B0;
+	margin-top: 30px;
 }
 
 /*#logo p {
@@ -399,10 +400,11 @@ p.descripcion144 {
 #boton_denunciar{
 	background-color:#FF5252;
 	float: right;
-	height: 100px;
-	width: 500px;
-	text-align: center;
-	font-size: 50px;
+        height: 100px;
+       width: 400px;
+       text-align: center;
+      font-size: 50px;
+       margin-right: 80px;
 	color: white;
 }
 #mapa_basado_en_app{
