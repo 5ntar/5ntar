@@ -424,4 +424,11 @@ a.linkapp {
 p.144app{
     font-size: 15px;
     font-family: verdana;	
-}	
+}
+
+img twitter2{
+	"width: 28px; 
+	height: 28px; 
+	object-fit: cover;
+	float:left;
+}
