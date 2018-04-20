@@ -182,7 +182,7 @@ img.aligncenter {
 	float: left;
 }
 
-#menu a{
+#menu a {
 	display: block;
 	height: 41px;
 	margin-right: 1px;
@@ -225,9 +225,6 @@ img.aligncenter {
 	margin: 0 auto;
 	padding: 0;
 	background: #FFFFFF;
-}
-
-#page-bgtop {
 }
 
 #page-bgbtm {
@@ -283,7 +280,6 @@ img.aligncenter {
 /* Sidebar */
 
 #sidebar {
-	
 	width: 100%;
 	padding: 0px 0px 0px 0px;
 	background: #E1BEE7;
