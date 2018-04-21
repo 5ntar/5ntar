@@ -91,8 +91,8 @@ img.aligncenter {
 #logo img{
  	width: 15%;
  	float: left;
-
-
+	margin-left: 75px;
+	margin-right: 15px;
 }
 #logo h1, #logo p {
 	/*margin: 0;
@@ -106,9 +106,9 @@ img.aligncenter {
 	text-transform: lowercase;
 	text-shadow: #E1BEE7 -1px 1px 2px;
 	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 70px;
+	font-size: 85px;
 	color: #9C27B0;
-	margin-top: 30px;
+	margin-top: 35px;
 }
 
 /*#logo p {
@@ -292,6 +292,7 @@ img.aligncenter {
 	margin: 0;
 	padding: 0;
 	list-style: none;
+	 margin-top: 40px;
 }
 
 #sidebar li {
@@ -400,11 +401,11 @@ p.descripcion144 {
 	background-color:#FF5252;
 	float: right;
         height: 100px;
-       width: 400px;
+       width: 300px;
        text-align: center;
       font-size: 50px;
-       margin-right: 80px;
 	color: white;
+	margin-right: 150px;
 }
 #mapa_basado_en_app{
 	font-weight: bold;
