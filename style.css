@@ -182,7 +182,7 @@ img.aligncenter {
 	float: left;
 }
 
-#menu a {
+#menu a{
 	display: block;
 	height: 41px;
 	margin-right: 1px;
@@ -196,8 +196,6 @@ img.aligncenter {
 	color: #FFFFFF;
 	border: none;
 	background: #9C27B0;
-	margin-bottom: 30px;
-	 margin-left: 10px;
 
 }
 
@@ -217,6 +215,7 @@ img.aligncenter {
 	margin: 0px auto;
 	background: url(images/img05.jpg) no-repeat left top;
 }
+
 
 /* Page */
 
