@@ -280,9 +280,12 @@ img.aligncenter {
 /* Sidebar */
 
 #sidebar {
-	width: 100%;
+	
+	float: right;
+	width: 330px;
 	padding: 0px 0px 0px 0px;
 	background: #E1BEE7;
+
 }
 
 #sidebar ul {
