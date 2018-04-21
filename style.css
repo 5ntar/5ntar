@@ -334,7 +334,12 @@ p.descripcion144 {
 	letter-spacing: 1px;
 	line-height: 35px;
 	padding-left: 30px;
-	margin-bottom: 40px;
+	margin-bottom: 0px;
+}
+
+h2.144{
+	 margin-bottom: 30px;
+	
 }
 
 #sidebar p {
