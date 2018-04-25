@@ -335,6 +335,7 @@ p.descripcion144 {
 	line-height: 35px;
 	padding-left: 30px;
 	margin-bottom: 0px;
+   	display: inherit
 }
 
 h2.144{
