@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contacto</title>
+        <link rel="stylesheet" type="text/css" href="contacto.css">
+        <script type="text/javascript" src="5ntar.js"></script>
+        <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+        <script type="text/javascript">
+           (function(){
+              emailjs.init("user_AmL4luVmtXES7UzP2d2j0");
+           })();
+        </script>
+    </head>
+    <body>
+          
+             
+        <div class="formulario">
+           <div class= "encabezado">
+                <h1>Contactate con nosotros!</h1>
+                
+                <h2 class="subtitulo">Estamos para responder tus dudas y ayudarte.</h2>
+            </div>
+            <div class="linkRedes">
+                <img class="imgtwitter" src="twitter_logo.png" alt="icono twitter">
+                <a href="https://twitter.com/5ntarapp">
+                    <p>Seguinos en twitter @5ntarapp  </p>
+                </a>
+                
+            </div>
+           
+           
+            <div class="cuerpo">
+                <div class="datos">
+                    <div>
+                         <label for="lbl_nombre">Nombre:</label>
+                        <input type="text" id="txt_nombre" />
+                    </div>
+                    <div>
+                        <label for="lbl_lugar">Mail:</label>
+                        <input type="text" id="txt_mail" />
+                    </div>
+                     <div>
+                        <label for="lbl_descripcion">Mensaje:</label>
+                        <textarea id="txt_descripcion"></textarea>
+                    </div>
+                </div>
+               <input type="button" value="Enviar un email" onclick="emailjs.send('mailgun', 'template_1uXEJpnJ', 
+                                                                    {
+                                                                     'mail': document.getElementById('txt_mail').value
+                                                                     ,'mensaje': document.getElementById('txt_descripcion').value
+                                                                     ,'nombre': document.getElementById('txt_nombre').value})
+                                                                     " /> 
+              
+            </div>
+               
+              
+        </div>
+    </body>
+</html>
