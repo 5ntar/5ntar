@@ -6,7 +6,7 @@ function EnviarInformacionACarto(nombre, lugar, hora, edad, tipo, descripcion){
 
 	var url ="https://lulitaamartin.carto.com/api/v2/sql?q=INSERT%20INTO%20table_5ntar%20(nombre,%20lugar,%20hora,%20edad,%20tipo,%20descripcion)%20VALUES%20("+ valores + ")&api_key=1WPttJtAhT1jXlrblvE1hg"
 	var res = encodeURI(url);
-        document.getElementById("valores").innerHTML = res;
+        document.getElementById("valores")= res;
 	alert(url);
 
 }
