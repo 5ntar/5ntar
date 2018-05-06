@@ -9,7 +9,7 @@ function EnviarInformacionACarto(nombre, lugar, hora, edad, tipo, descripcion){
 	//alert(url);
 
 	var xhttp = new XMLHttpRequest();
-	xhttp.open("GET", ACA VA LA URL, true);
+	xhttp.open("GET", res , true);
  	xhttp.send();
 
 }
