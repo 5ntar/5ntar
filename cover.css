@@ -176,6 +176,7 @@ media (min-width: 40em)
   .mastfoot,
   .cover-container {
     width: 42rem;
+    margin-left: 250px;
   }
 }
 .encabezado img{
