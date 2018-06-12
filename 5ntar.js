@@ -13,10 +13,5 @@ function EnviarInformacionACarto(nombre, lugar, hora, edad, tipo, descripcion){
  	xhttp.send();
 
 }
-if (EnviarInformacionACarto) {
-	window.location.href = "https://lulitamartin.github.io/5ntar/#Mapa"
-	else{ 
-    alert("Algo Salió mal, Volvé a cargar tu denuncia")
-}
 
 
