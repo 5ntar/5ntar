@@ -177,6 +177,7 @@ media (min-width: 40em)
   .cover-container {
     width: 40rem;
     margin-left: 250px;
+     margin-top: 20px;
   }
 }
 .encabezado img{
