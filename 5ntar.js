@@ -15,3 +15,10 @@ function EnviarInformacionACarto(nombre, lugar, hora, edad, tipo, descripcion){
 }
 
 
+
+function myFunction() {
+    alert("Gracias Por Compartirnos tu Experiencia!");
+}
+
+
+
