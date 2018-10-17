@@ -11,14 +11,14 @@ function EnviarInformacionACarto(nombre, lugar, hora, edad, tipo, descripcion){
 	var xhttp = new XMLHttpRequest();
 	xhttp.open("GET", url , true);
  	xhttp.send();
+	
+       alert("Gracias Por Compartirnos tu Experiencia!");
+
 
 }
 
 
 
-function myFunction() {
-    alert("Gracias Por Compartirnos tu Experiencia!");
-}
 
 
 
