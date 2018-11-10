@@ -13,7 +13,7 @@ function EnviarInformacionACarto(nombre, lugar, hora, edad, tipo, descripcion){
  	xhttp.send();
 	
        alert("Gracias Por Compartirnos tu Experiencia!");
-
+       href="https://5ntar.github.io/5ntar/#Mapa"
 
 }
 
