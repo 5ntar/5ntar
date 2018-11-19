@@ -59,7 +59,7 @@ body {
 /* Padding for spacing */
 .inner {
   padding: 10px;
-   display:table-cell;
+   display: inline-grid;
 }
 
 
